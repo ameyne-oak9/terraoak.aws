@@ -1,4 +1,5 @@
 resource "aws_db_instance" "sac_db_instance" {
+  # oak9: Enable Enhanced Monitoring for RDS
   db_name                 = "sacDatabaseName"
   identifier              = "sac-testing-db-instance"
   allocated_storage       = 10
